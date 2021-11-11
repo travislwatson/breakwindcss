@@ -1,0 +1,9 @@
+export const configuration = {
+  breakpoints: {
+    sm: "640px",
+    md: "768px",
+    lg: "1024px",
+    xl: "1280px",
+    "2xl": "640px",
+  },
+};

@@ -1,0 +1,28 @@
+{
+  "name": "breakwind",
+  "version": "0.0.2",
+  "description": "A utility-first CSS-in-JS framework, inspired by Tailwind.",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "rm -rf dist && tsc -w",
+    "prepublishOnly": "rm -rf dist && tsc",
+    "test": "ECHO todo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travislwatson/breakwindcss.git"
+  },
+  "author": "Travis Watson <npm@travislwatson.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travislwatson/breakwindcss/issues"
+  },
+  "homepage": "https://github.com/travislwatson/breakwindcss#readme",
+  "dependencies": {
+    "@emotion/css": "^11.5.0",
+    "csstype": "^3.0.9"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
